@@ -1,1 +1,1 @@
-web: npx docusaurus start
+web: npm start

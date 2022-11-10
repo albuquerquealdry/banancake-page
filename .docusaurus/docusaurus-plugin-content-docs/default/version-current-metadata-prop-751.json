@@ -1,0 +1,94 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Sobre a gente.",
+        "href": "/docs/intro",
+        "docId": "intro"
+      },
+      {
+        "type": "category",
+        "label": "Artigos",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Babidi Chatops",
+            "href": "/docs/tutorial-basics/Babidi-Chatops",
+            "docId": "tutorial-basics/Babidi-Chatops"
+          },
+          {
+            "type": "link",
+            "label": "Markdown Features",
+            "href": "/docs/tutorial-basics/markdown-features",
+            "docId": "tutorial-basics/markdown-features"
+          }
+        ],
+        "href": "/docs/category/artigos"
+      },
+      {
+        "type": "category",
+        "label": "Tutorial - Extras",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Manage Docs Versions",
+            "href": "/docs/tutorial-extras/manage-docs-versions",
+            "docId": "tutorial-extras/manage-docs-versions"
+          },
+          {
+            "type": "link",
+            "label": "Translate your site",
+            "href": "/docs/tutorial-extras/translate-your-site",
+            "docId": "tutorial-extras/translate-your-site"
+          }
+        ],
+        "href": "/docs/category/tutorial---extras"
+      }
+    ]
+  },
+  "docs": {
+    "intro": {
+      "id": "intro",
+      "title": "Sobre a gente.",
+      "description": "Conheça Um pouco sobre nos.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/Babidi-Chatops": {
+      "id": "tutorial-basics/Babidi-Chatops",
+      "title": "Babidi Chatops",
+      "description": "Add Markdown or React files to src/pages to create a standalone page:",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/markdown-features": {
+      "id": "tutorial-basics/markdown-features",
+      "title": "Markdown Features",
+      "description": "Docusaurus supports Markdown and a few additional features.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-extras/manage-docs-versions": {
+      "id": "tutorial-extras/manage-docs-versions",
+      "title": "Manage Docs Versions",
+      "description": "Docusaurus can manage multiple versions of your docs.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-extras/translate-your-site": {
+      "id": "tutorial-extras/translate-your-site",
+      "title": "Translate your site",
+      "description": "Let's translate docs/intro.md to French.",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Artigos",
+  "description": "Conheça nossos artigos",
+  "slug": "/category/artigos",
+  "permalink": "/docs/category/artigos",
+  "navigation": {
+    "previous": {
+      "title": "Sobre a gente.",
+      "permalink": "/docs/intro"
+    },
+    "next": {
+      "title": "Babidi Chatops",
+      "permalink": "/docs/tutorial-basics/Babidi-Chatops"
+    }
+  }
+}
