@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbanana_cake=self.webpackChunkbanana_cake||[]).push([[233],{3769:a=>{a.exports=JSON.parse('{"name":"docusaurus-plugin-content-docs","id":"default"}')}}]);
